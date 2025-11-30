@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to the Team! | Onboarding Demo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="25" cy="25" r="24" stroke="#4F46E5" stroke-width="2"/>
+                    <path d="M25 10L32 20H18L25 10Z" fill="#4F46E5"/>
+                    <circle cx="25" cy="30" r="8" fill="#4F46E5"/>
+                </svg>
+            </div>
+            <h1>Welcome to the Team!</h1>
+            <p class="subtitle">Onboarding Demo Application</p>
+        </header>
+
+        <main>
+            <section class="welcome-section">
+                <h2>🎉 Getting Started</h2>
+                <p>
+                    Congratulations on joining our team! This demo application is designed to help you 
+                    understand our development workflow and best practices.
+                </p>
+            </section>
+
+            <section class="features">
+                <div class="feature-card">
+                    <div class="icon">📚</div>
+                    <h3>Documentation</h3>
+                    <p>Comprehensive guides and API references to help you get up to speed quickly.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon">⚡</div>
+                    <h3>Quick Setup</h3>
+                    <p>Simple installation process with clear instructions and minimal configuration.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon">🛠️</div>
+                    <h3>Modern Stack</h3>
+                    <p>Built with Express.js and Node.js following industry best practices.</p>
+                </div>
+            </section>
+
+            <section class="api-section">
+                <h2>Try the API</h2>
+                <p>Our REST API is ready to explore. Here are some endpoints to get you started:</p>
+                <div class="api-endpoints">
+                    <div class="endpoint">
+                        <span class="method get">GET</span>
+                        <code>/api</code>
+                        <span class="description">API information</span>
+                    </div>
+                    <div class="endpoint">
+                        <span class="method get">GET</span>
+                        <code>/api/health</code>
+                        <span class="description">Health check</span>
+                    </div>
+                    <div class="endpoint">
+                        <span class="method get">GET</span>
+                        <code>/api/users</code>
+                        <span class="description">Get mock users</span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="next-steps">
+                <h2>Next Steps</h2>
+                <ol>
+                    <li>Review the <code>README.md</code> for detailed setup instructions</li>
+                    <li>Explore the <code>src/</code> directory to understand the code structure</li>
+                    <li>Check out <code>CONTRIBUTING.md</code> to learn about our development process</li>
+                    <li>Read the architecture documentation in <code>docs/</code></li>
+                    <li>Try making changes and submit your first pull request!</li>
+                </ol>
+            </section>
+        </main>
+
+        <footer>
+            <p>Built with ❤️ by your development team</p>
+            <p class="version">Version 1.0.0</p>
+        </footer>
+    </div>
+</body>
+</html>

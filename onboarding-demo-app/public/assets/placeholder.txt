@@ -1,0 +1,7 @@
+This is a placeholder file for the assets directory.
+
+In a real project, this folder would contain:
+- Images (logos, icons, photos)
+- Fonts
+- SVG files
+- Other static resources
